@@ -1,0 +1,18 @@
+{
+  "name": "pei-generator",
+  "version": "1.0.0",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node tests/compare.js && node tests/behavior.js && node tests/auth.test.mjs && node tests/ui.test.js"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "jsdom": "^30.1.3"
+  },
+  "private": true
+}
